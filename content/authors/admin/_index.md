@@ -18,7 +18,7 @@ organizations:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an aspiring Quantitative Researcher with a strong background in mathematics, statistics, and financial modeling. Currently employed at JP Morgan Chase & Co., I have honed my skills in quantitative analysis, risk assessment, and model development. My passion lies in leveraging data-driven insights to enhance decision-making in finance and machine learning. Let’s connect — I’m always eager to discuss the art of turning data into wisdom.
+bio: 
 
 interests:
 - Quantitative Analysis
@@ -66,8 +66,6 @@ social:
 email: "greninja4201@gmail.com"
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an aspiring Quantitative Researcher with a strong background in mathematics, statistics, and financial modeling. Currently employed at JP Morgan Chase & Co., I have honed my skills in quantitative analysis, risk assessment, and model development. My passion lies in leveraging data-driven insights to enhance decision-making in finance and machine learning. Let’s connect — I’m always eager to discuss the art of turning data into wisdom.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Rohan_Shinde_CV.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.

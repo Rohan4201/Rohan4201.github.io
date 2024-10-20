@@ -22,28 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Risk Analyst
+    company: JP Morgan Chase & Co.
     company_url: ''
     company_logo: org-gc
     location: California
-    date_start: '2021-01-01'
+    date_start: '2024-06-17'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
+        * Review Stress Testing Models
         * Deploying
 
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Quant Analyst Intern
+    company: JP Morgan Chase & Co.
     company_url: ''
     company_logo: org-x
     location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    date_start: '2023-06-08'
+    date_end: '2023-07-30'
+    description: Reviewing CCAR, Basel stress testing exercise-related quantitative models in the Commercial Real Estate Sector
 
 design:
   columns: '1'
