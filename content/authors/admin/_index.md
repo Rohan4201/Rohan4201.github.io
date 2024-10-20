@@ -68,4 +68,4 @@ email: "greninja4201@gmail.com"
 
 I am an aspiring Quantitative Researcher with a strong background in mathematics, statistics, and financial modeling. Currently employed at JP Morgan Chase & Co., I have honed my skills in quantitative analysis, risk assessment, and model development. My passion lies in leveraging data-driven insights to enhance decision-making in finance and machine learning. Let’s connect — I’m always eager to discuss the art of turning data into wisdom.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Rohan_Shinde_CV.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Rohan_Shinde_CV.pdf" "newtab" >}}Download{{< /staticref >}} my resume as a PDF.
