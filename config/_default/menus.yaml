@@ -11,7 +11,7 @@ main:
     url: about/
     weight: 20
   - name: Projects
-    url: #portfolio.md
+    url: portfolio.md
     weight: 30
   - name: Experience
     url: #experience.md
