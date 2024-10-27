@@ -13,7 +13,7 @@ main:
   - name: Projects
     url: portfolio
     weight: 30
-  -name: Experience
+  - name: Experience
     url: experience
     weight: 40
   - name: Education
