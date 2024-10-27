@@ -11,14 +11,14 @@ main:
     url: about/
     weight: 20
   - name: Projects
-    url: portfolio
+    url: #portfolio.md
     weight: 30
   - name: Experience
-    url: experience
+    url: #experience.md
     weight: 40
   - name: Education
-    url: education
+    url: #education.md
     weight: 50
   - name: Accomplishments
-    url: accomplishments
+    url: #accomplishments.md
     weight: 60
