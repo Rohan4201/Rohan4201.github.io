@@ -24,7 +24,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
   - certificate_url: https://www.hackerrank.com/certificates/0cbc7daa8aa4
-    date_end: '2023-08-20'
+    date_end: 'Aug 2023'
     #date_start: ''
     #description: ''
     organization: Hacker Rank
@@ -32,7 +32,7 @@ item:
     title: Python (Basic)
     #url: ''
   - certificate_url: https://www.hackerrank.com/certificates/127078516d0a
-    date_end: '2023-06-14'
+    date_end: 'Jun 2023'
     #date_start: ''
     #description: ''
     organization: Hacker Rank
@@ -40,7 +40,7 @@ item:
     title: R (Basic)
     #url: ''
   - certificate_url: https://courses.cognitiveclass.ai/certificates/33459ad8cc4c411191004938bebd9875
-    date_end: '2023-06-02'
+    date_end: 'Jun 2023'
     #date_start: ''
     #description: ''
     organization: Cognitive Class
@@ -48,7 +48,7 @@ item:
     title: 'Python for Data Science'
     #url: ''
   - certificate_url: https://freecodecamp.org/certification/rohan_ldrago/scientific-computing-with-python-v7
-    date_end: '2022-07-08'
+    date_end: 'Jul 2022'
     #date_start: ''
     #description: ''
     organization: Free Code Camp
@@ -56,7 +56,7 @@ item:
     title: 'Scientific Computing with Python'
     #url: ''
   - certificate_url: https://www.coursera.org/account/accomplishments/certificate/C2TCDNABYQLS
-    date_end: '2022-12-07'
+    date_end: 'Dec 2022'
     #date_start: ''
     #description: ''
     organization: Coursera
@@ -64,7 +64,7 @@ item:
     title: 'Machine Learning Algorithms: Supervised Learning Tip to Tail'
     #url: ''
   - certificate_url: https://www.coursera.org/account/accomplishments/certificate/F32P56XXQV4F
-    date_end: '2022-06-15'
+    date_end: 'Jun 2022'
     #date_start: ''
     #description: ''
     organization: Coursera
@@ -72,7 +72,7 @@ item:
     title: 'Introduction to Applied Machine Learning'
     #url: ''
   - certificate_url: ''
-    date_end: '2022-01-20'
+    date_end: 'Jan 2022'
     #date_start: ''
     #description: ''
     organization: Kaggle
@@ -80,7 +80,7 @@ item:
     title: 'Python'
     #url: ''
   - certificate_url: https://www.credly.com/badges/6a7b1f60-4bac-4d1c-9eb3-422b7ee4720c?source=linked_in_profile
-    date_end: '2021-11-23'
+    date_end: 'Nov 2021'
     #date_start: ''
     #description: ''
     organization: Coursera
@@ -88,7 +88,7 @@ item:
     title: 'Google Data Analytics Certificate'
     #url: ''
   - certificate_url: https://www.coursera.org/account/accomplishments/certificate/8CJD49GAW7QV
-    date_end: '2021-02-14'
+    date_end: 'Feb 2021'
     #date_start: ''
     #description: ''
     organization: Coursera
