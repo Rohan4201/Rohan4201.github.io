@@ -25,7 +25,7 @@ date_format: Jan 2006
 item:
   - certificate_url: https://www.hackerrank.com/certificates/0cbc7daa8aa4
     date_end: '' #'Aug 2023'
-    date_start: 'Aug 2023'
+    date_start: Aug 2023
     description: ''
     organization: Hacker Rank
     organization_url: https://www.hackerrank.com
@@ -33,7 +33,7 @@ item:
     url: ''
   - certificate_url: https://www.hackerrank.com/certificates/127078516d0a
     date_end: '' # 'Jun 2023'
-    date_start: 'Jun 2023'
+    date_start: Jun 2023
     description: ''
     organization: Hacker Rank
     organization_url: https://www.hackerrank.com
