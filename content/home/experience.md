@@ -45,5 +45,5 @@ experience:
     description: Reviewing CCAR, Basel stress testing exercise-related quantitative models in the Commercial Real Estate Sector
 
 design:
-  columns: '1'
+  columns: '2'
 ---
