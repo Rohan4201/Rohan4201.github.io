@@ -25,7 +25,7 @@ experience:
   - title: Risk Analyst
     company: JP Morgan Chase & Co.
     company_url: ''
-    company_logo: org-gc
+    company_logo: jpmc_logo
     location: California
     date_start: '2024-06-17'
     date_end: ''
@@ -38,7 +38,7 @@ experience:
   - title: Quant Analyst Intern
     company: JP Morgan Chase & Co.
     company_url: ''
-    company_logo: org-x
+    company_logo: jpmc_logo
     location: California
     date_start: '2023-06-08'
     date_end: '2023-07-30'

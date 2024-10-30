@@ -25,7 +25,7 @@ experience:
   - title: Master of Statistics
     company: Indian Statistical Institute
     company_url: ''
-    company_logo: org-x
+    company_logo: isi_logo
     location: Kolkata & New Delhi, India
     date_start: '2022-08-01'
     date_end: '2024-05-27'
@@ -35,7 +35,7 @@ experience:
   - title: Bachelors of Mathematics - BMath (Hons.)
     company: Indian Statistical Institute
     company_url: ''
-    company_logo: org-x
+    company_logo: isi_logo
     location: Bangalore, India
     date_start: '2019-08-01'
     date_end: '2022-05-16'
