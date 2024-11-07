@@ -14,4 +14,5 @@ date: 2024-05-17
   - Statistical Inference for the LASSO penalized Logistic Regression based on Xiao Guo et al's research papers
   - Brief introduction to Group LASSO (Appendix section)
 
-Download the slides {{< staticref "static/uploads/High dim presentation/Categorical_project.pdf" "newtab" >}}here{{< /staticref >}}.
+
+Download the slides {{< staticref "uploads/High dim presentation/Categorical_project.pdf" "newtab" >}}here{{< /staticref >}}.
