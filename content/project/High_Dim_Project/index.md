@@ -1,6 +1,6 @@
 ---
 title: Introduction to Non-Linear Dimension Reduction Techniques
-summary: Skills- Dimension Reduction · Isomap · t-SNE · MDS · Diffusion Map · LLE 
+summary: Skills- Isomap · t-SNE · MDS · Diffusion Map · LLE 
 tags:
   - ML
   - statistics
