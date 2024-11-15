@@ -1,6 +1,6 @@
 ---
-title: Introduction to Non-Linear Dimension Reduction Techniques
-summary: Skills- Dimension Reduction · Isomap · t-SNE · MDS · Diffusion Map · LLE 
+title: Predicting Low Income Low Access Tracts in US
+summary: Skills- Statistical Data Analysis · tidyverse · R programming · R (Programming Language) · Logistic Regression · Statistical Modeling· LDA · QDA · RDA
 tags:
   - ML
   - statistics
