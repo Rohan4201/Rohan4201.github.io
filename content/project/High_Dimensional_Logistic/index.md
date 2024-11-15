@@ -1,6 +1,6 @@
 ---
 title: High Dimensional Logistic Regression
-summary: Statistical Inference for the LASSO penalized Logistic Regression based on Xiao Guo et al's research papers
+summary: Skills- Statistical Data Analysis · Statistical Inference · R programming · R (Programming Language) · Machine Learning · Statistical Modeling
 tags:
   - Stats
 date: 2024-05-17

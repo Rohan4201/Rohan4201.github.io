@@ -1,6 +1,6 @@
 ---
 title: Johnson Lindenstrauss Lemma
-summary: Brief Summary of the John Lindenstrauss Lemma
+summary: Skills- Statistics · R programming · Statistical Modeling · Image Processing
 tags:
   - Stats
   - ML

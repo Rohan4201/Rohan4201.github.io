@@ -32,6 +32,8 @@ content:
       tag: ML
     - name: Statistics
       tag: Stats
+    - name: Web Scraping
+      tag: web-scrape
     - name: Other
       tag: Other
 
