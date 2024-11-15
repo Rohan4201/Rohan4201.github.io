@@ -3,6 +3,7 @@ title: Analyzing Naruto Shippuden anime IMDb ratings
 summary: Skills- Data Wrangling · Data Visualization · tidyverse · Web Scraping · R programming · Statistical Modeling
 tags:
   - Other
+  - web-scrape
 date: 2022-07-12
 external_link: https://github.com/Rohan4201/Web-Scraping-and-Data-Viz-projects/tree/main/Naruto_Shippuden_IMDb_ratings
 ---

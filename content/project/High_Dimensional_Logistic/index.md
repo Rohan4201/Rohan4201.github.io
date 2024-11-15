@@ -15,4 +15,4 @@ date: 2024-05-17
   - Brief introduction to Group LASSO (Appendix section)
 
 
-Download the slides {{< staticref "uploads/High dim presentation/Categorical_project.pdf" "newtab" >}}here{{< /staticref >}}.
+Download the slides {{< staticref "uploads/Categorical presentation/Categorical_project.pdf" "newtab" >}}here{{< /staticref >}}.
