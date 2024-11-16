@@ -20,10 +20,9 @@ design:
 #    video:
 #      path:  # enter filename of a video in /assets/media
   css_class: container
-  image: 
-      path: 7636213_3607424.jpg
+
 image: 
-      path: 7636213_3607424.jpg
+  path: 7636213_3607424.jpg
 title: "Welcome to my webpage!"
 ---
 
