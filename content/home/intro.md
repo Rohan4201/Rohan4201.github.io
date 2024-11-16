@@ -10,10 +10,11 @@ weight: 10
 
 author: admin
 design:
-  background:
-    color: '#e6e7e8'
-    image: 
+  image: 
       path: static/uploads/7636213_3607424.jpg
+  #background:
+  #  color: '#e6e7e8'
+    
     #text_color_light: true
 #    video:
 #      path:  # enter filename of a video in /assets/media
