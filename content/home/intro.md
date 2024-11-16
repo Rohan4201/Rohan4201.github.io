@@ -12,13 +12,14 @@ author: admin
 design:
   background:
     color: '#e6e7e8'
+    image: 
+      path: static/uploads/backgrounds/7636213_3607424.jpg
+      alt: "Network"
     #text_color_light: true
 #    video:
 #      path:  # enter filename of a video in /assets/media
   css_class: container
-image: 
-  path: static/uploads/backgrounds/7636213_3607424.jpg
-  alt: "Network"
+
 title: "Welcome to my webpage!"
 ---
 
