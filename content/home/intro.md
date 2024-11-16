@@ -11,7 +11,7 @@ weight: 10
 author: admin
 design:
   background:
-    image: 7636213_3607424.jpg
+    image: 6706379_3418448.jpg
   #background:
   #  color: '#e6e7e8'
     
