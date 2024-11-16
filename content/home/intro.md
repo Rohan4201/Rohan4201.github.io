@@ -12,7 +12,7 @@ author: admin
 design:
   background:
     image: 
-      path: assets/media/7636213_3607424.jpg
+      path: /assets/media/7636213_3607424.jpg
   #background:
   #  color: '#e6e7e8'
     
