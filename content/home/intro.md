@@ -18,7 +18,7 @@ design:
     #text_color_light: true
 #    video:
 #      path:  # enter filename of a video in /assets/media
-  css_class: container
+  css_class: fullscreen
 
 image: 
   path: 7636213_3607424.jpg
