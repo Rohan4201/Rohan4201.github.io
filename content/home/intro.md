@@ -15,7 +15,7 @@ design:
     #text_color_light: true
 #    video:
 #      path:  # enter filename of a video in /assets/media
-  css_class: parallax
+  css_class: container
 
 title: "Welcome to my webpage!"
 ---
