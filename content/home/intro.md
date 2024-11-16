@@ -14,7 +14,6 @@ design:
     color: '#e6e7e8'
     image: 
       path: 7636213_3607424.jpg
-      alt: "Network"
     #text_color_light: true
 #    video:
 #      path:  # enter filename of a video in /assets/media
