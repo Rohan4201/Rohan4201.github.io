@@ -10,7 +10,8 @@ weight: 10
 
 author: admin
 design:
-  image: 
+  background:
+    image: 
       path: static/uploads/7636213_3607424.jpg
   #background:
   #  color: '#e6e7e8'
