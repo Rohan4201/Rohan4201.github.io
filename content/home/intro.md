@@ -13,7 +13,7 @@ design:
   background:
     color: '#e6e7e8'
     image: 
-      path: backgrounds/7636213_3607424.jpg
+      path: /backgrounds/7636213_3607424.jpg
       alt: "Network"
     #text_color_light: true
 #    video:
