@@ -13,7 +13,7 @@ design:
   background:
     color: '#e6e7e8'
     image: 
-      path: 7636213_3607424.jpg
+      path: static/uploads/7636213_3607424.jpg
     #text_color_light: true
 #    video:
 #      path:  # enter filename of a video in /assets/media
