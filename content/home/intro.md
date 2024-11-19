@@ -25,7 +25,6 @@ image:
 title: "Welcome to my webpage!"
 ---
 
-# 👋 Hi, there! I'm **Rohan**, a Risk Analyst at JP Morgan Chase & Co.
 
 👋 Hey there! I'm Rohan
 A math enthusiast turned quant analyst, currently turning data into decisions at JP Morgan. When I'm not crunching numbers or coding up statistical models, you'll find me exploring the fascinating intersection of finance and machine learning. Check out my projects below to see how I blend mathematical precision with real-world problem-solving! ✨
