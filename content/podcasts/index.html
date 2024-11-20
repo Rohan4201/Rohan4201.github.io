@@ -1,24 +1,17 @@
-<section id="recent-podcasts">
-    <h2>Recent Podcasts</h2>
-    <ul>
-      {{ range first 3 (where .Site.Pages "Section" "podcasts" | sort "Date" "desc") }}
-        <li>
+<section id="podcasts" class="home-section">
+    <div class="container">
+      <header>
+        <h2>Latest Podcasts</h2>
+        <p>Catch up on our most recent episodes.</p>
+      </header>
+      <div class="podcast-grid">
+        {{ range first 4 (where .Site.Pages "Section" "podcasts" | sort "Date" "desc") }}
+        <div class="podcast-card">
           <h3>{{ .Title }}</h3>
           <p>{{ .Params.description }}</p>
-          <p><em>{{ .Date.Format "Jan 2, 2006" }}</em></p>
-        </li>
-      {{ end }}
-    </ul>
-    <a href="/podcasts/">See All Episodes</a>
-  </section>
-  
-  <section id="all-podcasts">
-    <h1>All Podcast Episodes</h1>
-    {{ range (where .Site.Pages "Section" "podcasts" | sort "Date" "desc") }}
-      <div>
-        <h2>{{ .Title }}</h2>
-        <p>{{ .Params.description }}</p>
-        <p><em>{{ .Date.Format "Jan 2, 2006" }}</em></p>
+          <a href="{{ .Permalink }}" class="btn btn-primary">Listen Now</a>
+        </div>
+        {{ end }}
       </div>
-    {{ end }}
+    </div>
   </section>
