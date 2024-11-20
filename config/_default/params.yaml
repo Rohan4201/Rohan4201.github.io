@@ -98,8 +98,10 @@ features:
     extra_languages:
       - r
       - latex
+      - python
+      - html
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
@@ -138,4 +140,4 @@ extensions:
     branch: main
     local_backend: false
   academicons:
-    enable: false
+    enable: true
