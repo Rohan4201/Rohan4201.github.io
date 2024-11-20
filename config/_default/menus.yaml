@@ -22,3 +22,6 @@ main:
   - name: Accomplishments
     url: /#accomplishments
     weight: 60
+  - name: Podcasts
+    url: /#podcasts
+    weight: 70
