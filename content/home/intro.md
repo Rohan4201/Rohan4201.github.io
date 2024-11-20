@@ -11,11 +11,11 @@ weight: 10
 author: admin
 design:
   background:
-  #  image: 7636213_3607424.jpg
+    image: 7636213_3607424.jpg
   #background:
   #  color: '#e6e7e8'
     
-    text_color_light: false
+    text_color_light: true
 #    video:
 #      path:  # enter filename of a video in /assets/media
   css_class: fullscreen
