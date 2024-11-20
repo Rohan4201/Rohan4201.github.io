@@ -8,7 +8,7 @@
 appearance:
   theme_day: custom
   theme_night: custom
-  font: minimal
+  font: classic
   font_size: L
 
 # SEO
@@ -16,12 +16,12 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
+    local_business_type: 'freelance, blog, upwork, teacheron'
     org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Personal Website of Rohan Shinde. Discuss Mathematics (Maths), Statistics (Stats), Machine Learning (ML), Artificial Intelligence (AI), and Cryptography'
+    twitter: '0_rayquaza'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-EFGLYG70FK'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
