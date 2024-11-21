@@ -13,17 +13,3 @@ content:
 design:
   css_style: 'podcast_css' 
 ---
-
-
-<div class="podcasts-section">
-  <h2>Podcasts</h2>
-  <ul>
-    {{ range .Pages }}
-    <li>
-      <h3><a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a></h3>
-      <p>{{ .Params.description }}</p>
-      <p><strong>Date:</strong> {{ .Date.Format "Jan 2, 2006" }}</p>
-    </li>
-    {{ end }}
-  </ul>
-</div>
