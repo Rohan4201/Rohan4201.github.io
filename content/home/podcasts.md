@@ -14,19 +14,16 @@ design:
   columns: '2'
 ---
 
-{{ define "main" }}
+
 <div class="podcasts-section">
-  <h2>Latest Podcasts</h2>
-  <ul class="podcasts-list">
+  <h2>Podcasts</h2>
+  <ul>
     {{ range .Pages }}
     <li>
-      <div class="podcast-icon">{{ .Params.icon }}</div>
-      <div>
-        <a href="{{ .Params.link }}" class="podcast-title" target="_blank">{{ .Title }}</a>
-        <p class="podcast-description">{{ .Params.description }}</p>
-      </div>
+      <h3><a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a></h3>
+      <p>{{ .Params.description }}</p>
+      <p><strong>Date:</strong> {{ .Date.Format "Jan 2, 2006" }}</p>
     </li>
     {{ end }}
   </ul>
 </div>
-{{ end }}
