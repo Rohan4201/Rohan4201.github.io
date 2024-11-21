@@ -1,5 +1,5 @@
 ---
-widget: tag_cloud
+widget: podcasts
 #headless: true
 weight: 70
 
