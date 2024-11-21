@@ -1,17 +1,16 @@
-<section id="podcasts" class="home-section">
-    <div class="container">
-      <header>
-        <h2>Latest Podcasts</h2>
-        <p>Catch up on our most recent episodes.</p>
-      </header>
-      <div class="podcast-grid">
-        {{ range first 4 (where .Site.Pages "Section" "podcasts" | sort "Date" "desc") }}
-        <div class="podcast-card">
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Params.description }}</p>
-          <a href="{{ .Permalink }}" class="btn btn-primary">Listen Now</a>
-        </div>
-        {{ end }}
+{{ define "main" }}
+<div class="podcasts-section">
+  <h2>Latest Podcasts</h2>
+  <ul class="podcasts-list">
+    {{ range .Pages }}
+    <li>
+      <div class="podcast-icon">{{ .Params.icon }}</div>
+      <div>
+        <a href="{{ .Params.link }}" class="podcast-title" target="_blank">{{ .Title }}</a>
+        <p class="podcast-description">{{ .Params.description }}</p>
       </div>
-    </div>
-  </section>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
