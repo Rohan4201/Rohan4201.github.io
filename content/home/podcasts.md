@@ -10,4 +10,6 @@ content:
   page_type: podcasts
 #draft: false
 #type: widget # Ensure your theme supports custom sections
+design:
+  columns: '2'
 ---
