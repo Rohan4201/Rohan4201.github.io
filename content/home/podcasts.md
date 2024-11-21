@@ -11,7 +11,7 @@ content:
 #draft: false
 #type: widget # Ensure your theme supports custom sections
 design:
-  columns: '2'
+  css_style: 'podcast_css' 
 ---
 
 
