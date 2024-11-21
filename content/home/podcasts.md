@@ -1,5 +1,5 @@
 ---
-#widget: podcasts
+widget: podcasts
 #headless: true
 weight: 70
 
