@@ -14,4 +14,4 @@ design:
   css_class: ""
 ---
 
-{{< partial "podcasts" . >}}
+{{< partial "podcasts" >}}
