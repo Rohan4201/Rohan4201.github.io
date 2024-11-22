@@ -1,15 +1,17 @@
 ---
-widget: podcasts
-#headless: true
+widget: blank  # Use 'blank' to allow custom HTML
+headless: true  # This ensures it's treated as a widget
 weight: 70
 
 title: Recent & Current Podcasts
 subtitle: Episodes That Inspire and Inform Me
-content:
-  # Page type to display. E.g. project.
-  page_type: podcasts
-#draft: false
-#type: widget # Ensure your theme supports custom sections
+
 design:
-  css_style: 'podcast_css' 
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '2'
+  # Add custom styles
+  css_style: podcast_css
+  css_class: ""
 ---
+
+{{< partial "podcasts" . >}}

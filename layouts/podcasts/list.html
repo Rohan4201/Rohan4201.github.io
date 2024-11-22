@@ -1,16 +1,16 @@
 {{ define "main" }}
-<div class="podcasts-section">
-  <h2>Latest Podcasts</h2>
-  <ul class="podcasts-list">
-    {{ range .Pages }}
-    <li>
-      <div class="podcast-icon">{{ .Params.icon }}</div>
-      <div>
-        <a href="{{ .Params.link }}" class="podcast-title" target="_blank">{{ .Title }}</a>
-        <p class="podcast-description">{{ .Params.description }}</p>
-      </div>
-    </li>
+<div class="podcasts-full-list">
+  <h1>{{ .Title }}</h1>
+  <div class="podcast-grid">
+    {{ range .Pages.ByDate.Reverse }}
+    <div class="podcast-card">
+      <h3>{{ .Title }}</h3>
+      <p class="show-name">{{ .Params.show }}</p>
+      <p class="date">{{ .Date.Format "Jan 2, 2006" }}</p>
+      <p class="description">{{ .Params.description }}</p>
+      <a href="{{ .Params.link }}" target="_blank">Listen</a>
+    </div>
     {{ end }}
-  </ul>
+  </div>
 </div>
 {{ end }}

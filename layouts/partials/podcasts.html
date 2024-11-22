@@ -1,27 +1,17 @@
-{{/* Hugo Blox: Podcasts Widget */}}
-{{/* Initialize */}}
-{{ $page := .wcPage }}
-{{ $block := .wcBlock }}
-
-<!-- Podcasts Widget -->
-<div class="widget podcasts">
-  {{ with $block.content.text }}
-  <div class="podcasts-header">{{ . | emojify | $page.RenderString }}</div>
-  {{ end }}
-
-  {{ if $block.content.items }}
-  <div class="podcasts-list">
-    {{ range $idx, $item := $block.content.items }}
-    <div class="podcast-item">
-      <h3 class="podcast-title">{{ $item.title | markdownify }}</h3>
-      {{ with $item.description }}
-      <p class="podcast-description">{{ . | markdownify }}</p>
-      {{ end }}
-      {{ with $item.url }}
-      <a href="{{ . }}" class="podcast-link" target="_blank" rel="noopener">Listen Now</a>
-      {{ end }}
+<div class="podcasts-section">
+  <h2>Recent Listens</h2>
+  <div class="podcast-grid">
+    {{ range first 3 (where .Site.RegularPages "Section" "podcasts").ByDate.Reverse }}
+    <div class="podcast-card">
+      <h3>{{ .Title }}</h3>
+      <p class="show-name">{{ .Params.show }}</p>
+      <p class="date">{{ .Date.Format "Jan 2, 2006" }}</p>
+      <p class="description">{{ .Params.description }}</p>
+      <a href="{{ .Params.link }}" target="_blank">Listen</a>
     </div>
     {{ end }}
   </div>
-  {{ end }}
+  <div class="see-more">
+    <a href="{{ "/podcasts" | relURL }}" class="btn btn-primary">See More</a>
+  </div>
 </div>
