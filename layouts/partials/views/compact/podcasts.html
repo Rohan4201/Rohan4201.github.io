@@ -1,0 +1,17 @@
+<div class="media stream-item view-compact">
+    <div class="media-body">
+      <div class="section-subheading article-title mb-0 mt-0">
+        <a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a>
+      </div>
+      <div class="stream-meta article-metadata">
+        <div>
+          <span>{{ .Date.Format "January 2, 2006" }}</span>
+        </div>
+      </div>
+      {{ with .Params.description }}
+      <div class="article-style">
+        {{ . | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
