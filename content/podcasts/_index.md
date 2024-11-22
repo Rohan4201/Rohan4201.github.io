@@ -5,7 +5,7 @@ type: landing  # Important: Use landing page type
 
 sections:
   - block: pages
-    content:
+  - content:
       title: Podcasts
       subtitle: My Complete Listening Journey
       # Listing view options
@@ -16,7 +16,7 @@ sections:
       filters:
         folders:
           - podcasts
-    design:
+  - design:
       columns: '2'  # Two-column layout
       view: 2  # Compact view
       spacing:
