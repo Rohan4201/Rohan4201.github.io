@@ -1,5 +1,5 @@
 ---
-widget: blank  # Use 'blank' to allow custom HTML
+widget: podcasts  # Use 'blank' to allow custom HTML
 headless: true  # This ensures it's treated as a widget
 weight: 70
 
