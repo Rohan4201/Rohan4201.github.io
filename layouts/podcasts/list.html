@@ -1,16 +1,22 @@
 {{ define "main" }}
-<div class="podcasts-full-list">
-  <h1>{{ .Title }}</h1>
-  <div class="podcast-grid">
-    {{ range .Pages.ByDate.Reverse }}
-    <div class="podcast-card">
-      <h3>{{ .Title }}</h3>
-      <p class="show-name">{{ .Params.show }}</p>
-      <p class="date">{{ .Date.Format "Jan 2, 2006" }}</p>
-      <p class="description">{{ .Params.description }}</p>
-      <a href="{{ .Params.link }}" target="_blank">Listen</a>
+<div class="universal-wrapper">
+  <div class="row">
+    <!-- Left column for title and subtitle -->
+    <div class="col-12 col-lg-4">
+      <div class="section-heading">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+          <p class="subtitle">{{ . }}</p>
+        {{ end }}
+      </div>
     </div>
-    {{ end }}
+    
+    <!-- Right column for podcast list -->
+    <div class="col-12 col-lg-8">
+      {{ range .Pages.ByDate.Reverse }}
+        {{ partial "views/compact/podcasts.html" . }}
+      {{ end }}
+    </div>
   </div>
 </div>
 {{ end }}
