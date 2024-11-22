@@ -19,6 +19,4 @@ advanced:
   js_args: {}
 ---
 
-<div class="podcasts-widget">
-{{</* include "/partials/podcasts" */>}}
-</div>
+{{% include "/partials/podcasts" %}}
