@@ -33,3 +33,22 @@
     margin-top: 2rem;
   }
 }
+
+.home-section#podcasts {
+  .section-heading {
+    // Styling for the left column
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+  }
+
+  // Add some space between columns
+  .col-12.col-lg-8 {
+    padding-left: 2rem;
+  }
+}
