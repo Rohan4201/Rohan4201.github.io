@@ -1,17 +1,24 @@
 ---
-widget: podcasts  # Use 'blank' to allow custom HTML
-headless: true  # This ensures it's treated as a widget
+widget: markdown
+headless: true
 weight: 70
 
 title: Recent & Current Podcasts
 subtitle: Episodes That Inspire and Inform Me
 
 design:
-  # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '2'
-  # Add custom styles
-  css_style: podcast_css
+  css_style: ""
   css_class: ""
+
+# Add this section to include custom HTML
+advanced:
+  css_class: ""
+  css_style: ""
+  js_source_files: []
+  js_args: {}
 ---
 
-{{< partial "podcasts" >}}
+<div class="podcasts-widget">
+{{</* include "/partials/podcasts" */>}}
+</div>
