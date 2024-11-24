@@ -11,7 +11,7 @@ main:
     url: about/
     weight: 20
   - name: Defining
-    url: /#define
+    url: /#skills
     weight: 30
   - name: Projects
     url: /#portfolio
@@ -22,9 +22,9 @@ main:
   - name: Education
     url: /#education
     weight: 50
-  - name: Accomplishments
-    url: /#accomplishments
-    weight: 60
-  - name: Podcasts
-    url: /#podcasts
-    weight: 70
+#  - name: Accomplishments
+#    url: /#accomplishments
+#    weight: 60
+#  - name: Podcasts
+#    url: /#podcasts
+#    weight: 70
