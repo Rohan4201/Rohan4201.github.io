@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: ''
-subtitle: ''
+title: Projects
+subtitle: Few of the projects I have worked on in several different domains
 
 content:
   # Page type to display. E.g. project.
