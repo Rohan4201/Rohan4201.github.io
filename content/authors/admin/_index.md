@@ -41,6 +41,16 @@ skills:
     icon: rss
     icon_pack: fas
     link: /blogs
+  - name: Blog Articles by me
+    description: My own Blog articles
+    icon: blog
+    icon_pack: fas
+    link: /myblogs
+  - name: Accomplishments
+    description: Certifications/Courses over time
+    icon: certificate
+    icon_pack: fas
+    link: /accomplishments
     
 
 education:
