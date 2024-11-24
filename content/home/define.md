@@ -1,5 +1,8 @@
 ---
-widget: skills
+widget: pages
+
+content:
+    page_type: skills
 
 weight: 20
 
