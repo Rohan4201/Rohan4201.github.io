@@ -1,0 +1,40 @@
+{{ $skills := .Params.skills }}
+
+<div class="row">
+  {{ range $skills }}
+    <div class="col-12 col-md-6">
+      <div class="skill-group-title">
+        {{ .name | markdownify | emojify }}
+        {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      </div>
+      {{ range .items }}
+        <div class="skills-content">
+          {{ with .icon }}
+            <span class="skills-icon">
+              <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
+            </span>
+          {{ end }}
+
+          <span class="skills-name">
+            {{ if .link }}
+              <a href="{{ .link }}" target="_blank" rel="noopener">
+                {{ .name | markdownify | emojify }}
+              </a>
+            {{ else }}
+              {{ .name | markdownify | emojify }}
+            {{ end }}
+            {{ with .description }}
+              <p class="skills-description">{{ . | markdownify | emojify }}</p>
+            {{ end }}
+          </span>
+
+          {{ if .percent }}
+            <div class="skills-wrapper">
+              <div class="skills-percent" style="width: {{ .percent }}%"></div>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

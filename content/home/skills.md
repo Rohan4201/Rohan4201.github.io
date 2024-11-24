@@ -1,17 +1,22 @@
 ---
-widget: markdown
+# An instance of the Skills widget.
+widget: skills
 
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 70
+
+# Section title
+title: Things That Define Me
+subtitle: What Shapes My Perspective
+
+# Skills Section
 content:
-  page_type: skills
-  filters:
-    folders:
-      - skills
-
-weight: 20
-
-title: Things that define me
+  username: admin
+  text: 
+  
 design:
-  view: 3
+  columns: '2'
 ---
-
-{{ partial "skills.html" . }}

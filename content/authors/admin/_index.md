@@ -26,35 +26,59 @@ interests:
 - Machine Learning
 
 skills:
-  - name: Podcasts
-    description: Podcasts I listen to
+  - name: Favorite Podcasts
+    description: Audio content that shapes my thinking
     icon: podcast
-    icon_pack: fab
-    #color: "#4caf50" # (Optional: Progress bar color)
-    #color_border: "#388e3c" # (Optional: Border color)
-    #items:
-    #  - name: "Python"
-    #    icon: "python"
-    #    icon_pack: "fab"
-    #    percent: 90
-    #  - name: "JavaScript"
-    #    icon: "js"
-    #    icon_pack: "fab"
-    #    percent: 80
-  - name: Frameworks
-    description: Frameworks I frequently use.
+    icon_pack: fas
     items:
-      - name: React
-        icon: react
+      - name: The Daily
+        icon: spotify
         icon_pack: fab
+        description: News podcast by The New York Times
+        percent: 90
+        link: https://www.nytimes.com/column/the-daily
+      - name: Hardcore History
+        icon: podcast
+        icon_pack: fas
+        description: By Dan Carlin
         percent: 85
-  - name: Design Tools
-    description: My go-to design tools.
+        link: https://www.dancarlin.com/
+
+  - name: Reading List
+    description: Books that influenced me
+    icon: book
+    icon_pack: fas
     items:
-      - name: Figma
-        icon: figma
-        icon_pack: fab
-        percent: 70
+      - name: Thinking Fast and Slow
+        icon: book
+        icon_pack: fas
+        description: By Daniel Kahneman
+        percent: 100
+        link: https://www.goodreads.com/book/show/11468377
+      - name: Sapiens
+        icon: book
+        icon_pack: fas
+        description: By Yuval Noah Harari
+        percent: 100
+        link: https://www.goodreads.com/book/show/23692271
+
+  - name: Favorite Blogs
+    description: Regular reads that keep me informed
+    icon: rss
+    icon_pack: fas
+    items:
+      - name: Wait But Why
+        icon: globe
+        icon_pack: fas
+        description: Long-form explanatory blog
+        percent: 95
+        link: https://waitbutwhy.com/
+      - name: Brain Pickings
+        icon: brain
+        icon_pack: fas
+        description: By Maria Popova
+        percent: 90
+        link: https://www.brainpickings.org/
 
 education:
   courses:
