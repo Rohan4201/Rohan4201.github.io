@@ -3,10 +3,15 @@
 {{/* Initialise */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
-{{ $columns := $block.design.columns | default "1" }}
 
 {{/* Get user data */}}
-{{ $author := $block.content.username | default "admin" }}
+{{ $author := "" }}
+{{ with $block.content.username }}
+  {{ $author = . }}
+{{ else }}
+  {{ $author = "admin" }}
+{{ end }}
+
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
@@ -14,8 +19,8 @@
 {{end}}
 {{ $skills := $person_page.Params.skills }}
 
-<div class="row">
-  <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+<div class="row justify-content-center">
+  <div class="col-12">
     {{ with $block.content.text }}
       <div class="col-md-12 text-center mb-3">
         {{ . | emojify | $page.RenderString }}
@@ -24,10 +29,10 @@
 
     <div class="row">
       {{ range $skills }}
-        <div class="col-12 col-sm-6">
-          <div class="skill-group-title">
+        <div class="col-12 col-sm-6 mb-4">
+          <div class="skill-group-title mb-3">
             {{ .name | markdownify | emojify }}
-            {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+            {{ with .description }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
           </div>
           
           {{ range .items }}
@@ -37,9 +42,9 @@
               {{ $pack_prefix = "fa" }}
             {{ end }}
             
-            <div class="skills-content">
+            <div class="skills-content mb-2">
               {{ with .icon }}
-                <span class="skills-icon">
+                <span class="skills-icon me-2">
                   <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
                 </span>
               {{ end }}
@@ -53,13 +58,13 @@
                   {{ .name | markdownify | emojify }}
                 {{ end }}
                 {{ with .description }}
-                  <p class="skills-description">{{ . | markdownify | emojify }}</p>
+                  <p class="skills-description text-muted small mt-1">{{ . | markdownify | emojify }}</p>
                 {{ end }}
               </span>
 
               {{ if .percent }}
-                <div class="skills-wrapper">
-                  <div class="skills-percent" style="width: {{ .percent }}%"></div>
+                <div class="skills-wrapper mt-2">
+                  <div class="skills-percent" style="width: {{ .percent }}%; background-color: #3f51b5;"></div>
                 </div>
               {{ end }}
             </div>
@@ -69,3 +74,44 @@
     </div>
   </div>
 </div>
+
+<style>
+.skills-content {
+  margin-bottom: 1rem;
+}
+
+.skills-icon {
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+}
+
+.skills-wrapper {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  height: 6px;
+  overflow: hidden;
+}
+
+.skills-percent {
+  height: 100%;
+  transition: width 0.6s ease;
+}
+
+.skills-content a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.skills-content a:hover {
+  color: #2962ff;
+  text-decoration: underline;
+}
+
+.skill-group-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+}
+</style>
