@@ -1,32 +1,14 @@
 {{/* Hugo Blox: Skills Block */}}
 
-{{/* Initialise */}}
-{{ $page := .wcPage }}
-{{ $block := .wcBlock }}
-
 {{/* Get user data */}}
-{{ $author := "" }}
-{{ with $block.content.username }}
-  {{ $author = . }}
-{{ else }}
-  {{ $author = "admin" }}
-{{ end }}
-
-{{ $person_page_path := (printf "/authors/%s" $author) }}
-{{ $person_page := site.GetPage $person_page_path }}
+{{ $person_page := site.GetPage "/authors/admin" }}
 {{ if not $person_page }}
-  {{ errorf "Could not find an author page at %s. Please check the value of username in your Skills block and create an associated author page if one does not already exist." $person_page_path }}
+  {{ errorf "Could not find the author page at /authors/admin. Please create an author page if one does not already exist." }}
 {{end}}
 {{ $skills := $person_page.Params.skills }}
 
 <div class="row justify-content-center">
   <div class="col-12">
-    {{ with $block.content.text }}
-      <div class="col-md-12 text-center mb-3">
-        {{ . | emojify | $page.RenderString }}
-      </div>
-    {{ end }}
-
     <div class="row">
       {{ range $skills }}
         <div class="col-12 col-sm-6 mb-4">
