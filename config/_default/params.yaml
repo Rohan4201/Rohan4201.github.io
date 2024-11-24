@@ -9,7 +9,7 @@ appearance:
   theme_day: custom
   theme_night: custom
   font: classic
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -47,16 +47,16 @@ header:
     # Display the navigation bar?
     enable: true
     # Choose a built-in navigation blox or create your own
-    blox: "navbar"
+    blox: navbar
     # Align menu links: `left`, `center`, or `right`
-    align: "left"
+    align: left
     # Fix the navigation bar to the top of the page
     fixed_to_top: true
     logo:
       # Logo text
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.png"
+      filename: logo.png
     # Shop a call-to-action button in the top right?
     button:
       enable: true
