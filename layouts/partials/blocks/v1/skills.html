@@ -1,0 +1,71 @@
+{{/* Hugo Blox: Skills Block */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $columns := $block.design.columns | default "1" }}
+
+{{/* Get user data */}}
+{{ $author := $block.content.username | default "admin" }}
+{{ $person_page_path := (printf "/authors/%s" $author) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at %s. Please check the value of username in your Skills block and create an associated author page if one does not already exist." $person_page_path }}
+{{end}}
+{{ $skills := $person_page.Params.skills }}
+
+<div class="row">
+  <div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+    {{ with $block.content.text }}
+      <div class="col-md-12 text-center mb-3">
+        {{ . | emojify | $page.RenderString }}
+      </div>
+    {{ end }}
+
+    <div class="row">
+      {{ range $skills }}
+        <div class="col-12 col-sm-6">
+          <div class="skill-group-title">
+            {{ .name | markdownify | emojify }}
+            {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+          </div>
+          
+          {{ range .items }}
+            {{ $pack := or .icon_pack "fas" }}
+            {{ $pack_prefix := $pack }}
+            {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+              {{ $pack_prefix = "fa" }}
+            {{ end }}
+            
+            <div class="skills-content">
+              {{ with .icon }}
+                <span class="skills-icon">
+                  <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
+                </span>
+              {{ end }}
+
+              <span class="skills-name">
+                {{ if .link }}
+                  <a href="{{ .link }}" target="_blank" rel="noopener">
+                    {{ .name | markdownify | emojify }}
+                  </a>
+                {{ else }}
+                  {{ .name | markdownify | emojify }}
+                {{ end }}
+                {{ with .description }}
+                  <p class="skills-description">{{ . | markdownify | emojify }}</p>
+                {{ end }}
+              </span>
+
+              {{ if .percent }}
+                <div class="skills-wrapper">
+                  <div class="skills-percent" style="width: {{ .percent }}%"></div>
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
