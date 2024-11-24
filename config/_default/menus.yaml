@@ -10,9 +10,12 @@ main:
   - name: About
     url: about/
     weight: 20
+  - name: Defining
+    url: /#define
+    weight: 30
   - name: Projects
     url: /#portfolio
-    weight: 30
+    weight: 80
   - name: Experience
     url: /#experience
     weight: 40
