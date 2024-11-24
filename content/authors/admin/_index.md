@@ -30,17 +30,17 @@ skills:
     description: Audio content that shapes my thinking
     icon: podcast
     icon_pack: fas
-    
-
+    link: /podcasts
   - name: Reading List
     description: Books that influenced me
     icon: book
     icon_pack: fas
-    
-  - name: Favorite Blogs
+    link: /books
+  - name: Blogs I Follow
     description: Regular reads that keep me informed
     icon: rss
     icon_pack: fas
+    link: /blogs
     
 
 education:

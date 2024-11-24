@@ -1,6 +1,5 @@
 {{/* Hugo Blox: Skills Block */}}
 
-{{/* Get user data */}}
 {{ $person_page := site.GetPage "/authors/admin" }}
 {{ if not $person_page }}
   {{ errorf "Could not find the author page at /authors/admin. Please create an author page if one does not already exist." }}
@@ -11,46 +10,22 @@
   <div class="col-12">
     <div class="row">
       {{ range $skills }}
-        <div class="col-12 col-sm-6 mb-4">
-          <div class="skill-group-title mb-3">
-            {{ .name | markdownify | emojify }}
-            {{ with .description }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
-          </div>
-          
-          {{ range .items }}
-            {{ $pack := or .icon_pack "fas" }}
-            {{ $pack_prefix := $pack }}
-            {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-              {{ $pack_prefix = "fa" }}
-            {{ end }}
-            
-            <div class="skills-content mb-2">
-              {{ with .icon }}
-                <span class="skills-icon me-2">
-                  <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
-                </span>
-              {{ end }}
-
-              <span class="skills-name">
-                {{ if .link }}
-                  <a href="{{ .link }}" target="_blank" rel="noopener">
-                    {{ .name | markdownify | emojify }}
-                  </a>
-                {{ else }}
-                  {{ .name | markdownify | emojify }}
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <a href="{{ .link }}" class="skill-card">
+            <div class="skill-content">
+              <div class="skill-icon">
+                {{ with .icon }}
+                  <i class="{{ $.icon_pack | default "fas" }} fa-{{ . }}"></i>
                 {{ end }}
+              </div>
+              <div class="skill-text">
+                <h3 class="skill-title">{{ .name | markdownify | emojify }}</h3>
                 {{ with .description }}
-                  <p class="skills-description text-muted small mt-1">{{ . | markdownify | emojify }}</p>
+                  <p class="skill-description">{{ . | markdownify | emojify }}</p>
                 {{ end }}
-              </span>
-
-              {{ if .percent }}
-                <div class="skills-wrapper mt-2">
-                  <div class="skills-percent" style="width: {{ .percent }}%; background-color: #3f51b5;"></div>
-                </div>
-              {{ end }}
+              </div>
             </div>
-          {{ end }}
+          </a>
         </div>
       {{ end }}
     </div>
@@ -58,42 +33,50 @@
 </div>
 
 <style>
-.skills-content {
-  margin-bottom: 1rem;
+.skill-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.skills-icon {
-  display: inline-block;
-  width: 1.5em;
+.skill-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  text-decoration: none;
+  color: inherit;
+}
+
+.skill-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.skill-icon {
+  font-size: 2.5em;
+  color: steelblue;
+  min-width: 60px;
   text-align: center;
 }
 
-.skills-wrapper {
-  background-color: #f5f5f5;
-  border-radius: 4px;
-  height: 6px;
-  overflow: hidden;
+.skill-text {
+  flex: 1;
 }
 
-.skills-percent {
-  height: 100%;
-  transition: width 0.6s ease;
+.skill-title {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
-.skills-content a {
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.3s ease;
-}
-
-.skills-content a:hover {
-  color: #2962ff;
-  text-decoration: underline;
-}
-
-.skill-group-title {
-  font-weight: bold;
-  font-size: 1.1em;
-  color: #333;
+.skill-description {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #666;
 }
 </style>
