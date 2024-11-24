@@ -4,7 +4,7 @@ widget: pages
 content:
     page_type: skills
     skills:
-    - name: Podcasts
+      - name: Podcasts
         description: Podcasts I listen to
         icon: podcast
         icon_pack: fab
@@ -19,17 +19,17 @@ content:
         #    icon: "js"
         #    icon_pack: "fab"
         #    percent: 80
-    - name: Frameworks
+      - name: Frameworks
         description: Frameworks I frequently use.
         items:
-        - name: React
+          - name: React
             icon: react
             icon_pack: fab
             percent: 85
-    - name: Design Tools
+      - name: Design Tools
         description: My go-to design tools.
         items:
-        - name: Figma
+          - name: Figma
             icon: figma
             icon_pack: fab
             percent: 70
