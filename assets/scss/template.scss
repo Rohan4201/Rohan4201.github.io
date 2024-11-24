@@ -1,5 +1,35 @@
 // Starter Blog Template
 // https://hugoblox.com/hugo-themes/
+body {
+  transform: scale(0.8); /* Adjust value between 0.8 to 0.95 */
+  transform-origin: top center;
+  width: 111.11%; /* Compensate for scale (100/0.9) */
+  margin-left: -5.56%; /* Center the scaled content */
+}
+
+/* Fine-tune text sizes */
+body {
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 2rem !important;
+}
+
+.container {
+  max-width: 1140px !important;
+}
+
+/* Reduce spacing */
+.section {
+  padding: 40px 0 !important;
+}
+
+.py-5 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
 
 body {
   background-color: rgb(247, 250, 252);
