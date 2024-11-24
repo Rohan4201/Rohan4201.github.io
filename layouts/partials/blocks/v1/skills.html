@@ -6,77 +6,76 @@
 {{end}}
 {{ $skills := $person_page.Params.skills }}
 
-<div class="row justify-content-center">
-  <div class="col-12">
-    <div class="row">
-      {{ range $skills }}
-        <div class="col-12 col-sm-6 col-lg-4 mb-4">
-          <a href="{{ .link }}" class="skill-card">
-            <div class="skill-content">
-              <div class="skill-icon">
-                {{ with .icon }}
-                  <i class="{{ $.icon_pack | default "fas" }} fa-{{ . }}"></i>
-                {{ end }}
-              </div>
-              <div class="skill-text">
-                <h3 class="skill-title">{{ .name | markdownify | emojify }}</h3>
-                {{ with .description }}
-                  <p class="skill-description">{{ . | markdownify | emojify }}</p>
-                {{ end }}
-              </div>
+<div class="container py-5">
+  <h1 class="section-title text-center mb-5">Skills</h1>
+  
+  <div class="row justify-content-center">
+    {{ range $skills }}
+      <div class="col-12 col-md-4 mb-4">
+        <a href="{{ .link }}" class="skill-link">
+          <div class="skill-box text-center">
+            <div class="skill-icon mb-3">
+              <i class="{{ .icon_pack }} fa-{{ .icon }} fa-3x"></i>
             </div>
-          </a>
-        </div>
-      {{ end }}
-    </div>
+            <h3 class="skill-title mb-2">{{ .name }}</h3>
+            <p class="skill-description">{{ .description }}</p>
+          </div>
+        </a>
+      </div>
+    {{ end }}
   </div>
 </div>
 
 <style>
-.skill-card {
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.skill-link {
+  text-decoration: none;
+  color: inherit;
   display: block;
-  text-decoration: none;
-  color: inherit;
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.skill-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+.skill-link:hover {
   text-decoration: none;
   color: inherit;
 }
 
-.skill-content {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.skill-box {
+  padding: 1.5rem;
+  height: 100%;
 }
 
 .skill-icon {
-  font-size: 2.5em;
-  color: steelblue;
-  min-width: 60px;
-  text-align: center;
-}
-
-.skill-text {
-  flex: 1;
+  color: #0066cc;
+  margin-bottom: 1rem;
 }
 
 .skill-title {
-  margin: 0;
-  font-size: 1.2em;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
 }
 
 .skill-description {
-  margin: 5px 0 0;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: #666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skill-box {
+    margin-bottom: 1rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
 }
 </style>
