@@ -1,5 +1,5 @@
 ---
-title: Huberman Lab - The Strength Secrets of Pavel Tsatsouline: Building Strength, Endurance & Flexibility at Any Age
+title: Huberman Lab - The Strength Secrets of Pavel Tsatsouline
 date: '2025-02-13'
 description: 
 draft: false
