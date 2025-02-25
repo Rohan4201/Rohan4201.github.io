@@ -87,7 +87,11 @@ Reading The 5AM Club was inspiring, but let’s be honest—waking up at 5 AM is
 
 ![Victory Hour](https://images.unsplash.com/photo-1506784365847-bbad939e9335?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
 
-Would I recommend it? Yes, if you’re looking for a productivity boost and a structured way to maximize your potential. The book blends motivation with actionable strategies, making it a great read for anyone serious about self-improvement. Would I join the 5 AM Club permanently? Maybe not every day—but I am definitely more conscious about how I start my mornings now.
+Would I recommend it? Yes, if you’re looking for a productivity boost and a structured way to maximize your potential. The book blends motivation with actionable strategies, making it a great read for anyone serious about self-improvement. 
+
+
+Would I join the 5 AM Club permanently? Maybe not every day—but I am definitely more conscious about how I start my mornings now.
+
 ---
 
 ## 🛠️ **Actionable Takeaways**
