@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="universal-wrapper">
+  <div class="row">
+    <!-- Left column for title and subtitle -->
+    <div class="col-12 col-lg-4">
+      <div class="section-heading">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+          <p class="subtitle">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    
+    <!-- Right column for podcast list -->
+    <div class="col-12 col-lg-8">
+      {{ range .Pages.ByDate.Reverse }}
+        {{ partial "views/compact/podcasts.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
