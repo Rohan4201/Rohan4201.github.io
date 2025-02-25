@@ -8,7 +8,7 @@ type: podcasts
 
 ![The 5 AM Club Cover](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRT8xdNM-PuqyKpXykaXNbvJXojX3D9Y9ivg&s)
 
-If you’ve ever wondered what separates the icons of history from the rest of us, *The 5 AM Club* by Robin Sharma might just have the answer. A few months ago, I came across The 5AM Club by Robin Sharma, a book that promised transformation by simply waking up early. Like many of us, I have often been caught in the cycle of postponing self-improvement, waiting for the "perfect moment." But as I read through the book, I realized that transformation isn’t about waiting—it’s about taking control of our days, one morning at a time. This book isn’t just about waking up early—it’s about transforming your life, one morning at a time. 
+If you’ve ever wondered what separates the icons of history from the rest of us, *The 5 AM Club* by Robin Sharma might just have the answer. A few months ago, I came across The 5AM Club by Robin Sharma, a book that promised transformation by simply waking up early. Like many of us, I have often been caught in the cycle of postponing self-improvement, waiting for the "perfect moment". But as I read through the book, I realized that transformation isn’t about waiting or just waking up early—it’s about transforming your life, one morning at a time.
 
 This summary isn’t just about the book’s key lessons; it’s my personal take on why it resonated with me and how it can be applied to real life.
 
@@ -75,7 +75,7 @@ Sharma doesn’t just rely on motivational rhetoric—he backs his ideas with sc
 
    > *“Neurons that fire together, wire together.”*
 
-   ![Neuroplasticity Quote](https://images.unsplash.com/photo-1517842645767-c639042777e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
+   ![Neuroplasticity Quote](https://cdn-ilcknlj.nitrocdn.com/VcoospcRoETICinuqsMReZundDTMEvXS/assets/images/optimized/rev-edf08a4/www.altamirarecovery.com/wp-content/uploads/2017/12/strong-vs-weak-pathways.jpg)
 
 ---
 
