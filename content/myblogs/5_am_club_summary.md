@@ -1,5 +1,5 @@
 ---
-title: The 5 AM Club: A Journey to Mastery and Morning Magic
+title: The 5 AM Club- A Journey to Mastery and Morning Magic
 date: '2025-02-25'
 description: 
 draft: false
