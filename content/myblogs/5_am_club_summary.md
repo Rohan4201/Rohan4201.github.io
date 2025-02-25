@@ -4,7 +4,6 @@ date: '2025-02-25'
 description: 
 draft: false
 type: podcasts
-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRT8xdNM-PuqyKpXykaXNbvJXojX3D9Y9ivg&s
 ---
 
 ![The 5 AM Club Cover](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRT8xdNM-PuqyKpXykaXNbvJXojX3D9Y9ivg&s)
