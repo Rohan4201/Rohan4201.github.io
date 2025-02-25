@@ -4,11 +4,14 @@ date: '2025-02-25'
 description: 
 draft: false
 type: podcasts
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRT8xdNM-PuqyKpXykaXNbvJXojX3D9Y9ivg&s
 ---
 
 ![The 5 AM Club Cover](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRT8xdNM-PuqyKpXykaXNbvJXojX3D9Y9ivg&s)
 
-If you’ve ever wondered what separates the icons of history from the rest of us, *The 5 AM Club* by Robin Sharma might just have the answer. A few months ago, I came across The 5AM Club by Robin Sharma, a book that promised transformation by simply waking up early. Like many of us, I have often been caught in the cycle of postponing self-improvement, waiting for the "perfect moment". But as I read through the book, I realized that transformation isn’t about waiting or just waking up early—it’s about transforming your life, one morning at a time.
+If you’ve ever wondered what separates the icons of history from the rest of us, *The 5 AM Club* by Robin Sharma might just have the answer. 
+
+A few months ago, I came across The 5AM Club by Robin Sharma, a book that promised transformation by simply waking up early. Like many of us, I have often been caught in the cycle of postponing self-improvement, waiting for the "perfect moment". But as I read through the book, I realized that transformation isn’t about waiting or just waking up early—it’s about transforming your life, one morning at a time.
 
 This summary isn’t just about the book’s key lessons; it’s my personal take on why it resonated with me and how it can be applied to real life.
 
