@@ -367,3 +367,34 @@ ul.network-icon .big-icon {
 .skills-content a:hover {
   color: #2962ff;
 }
+
+.table-of-contents {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.table-of-contents h3 {
+  color: #6a0dad; /* Purplish */
+  font-weight: bold;
+}
+
+.table-of-contents ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.table-of-contents ul li a {
+  color: #6a0dad; /* Purplish */
+  text-decoration: none;
+}
+
+.table-of-contents ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Purple Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #6a0dad; /* Purplish */
+}
