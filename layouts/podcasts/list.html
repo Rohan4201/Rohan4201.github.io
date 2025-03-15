@@ -10,7 +10,10 @@
         {{ end }}
       </div>
     </div>
-    
+    <div class="table-of-contents">
+      <h3>Table of Contents</h3>
+      {{ .TableOfContents }}
+    </div>
     <!-- Right column for podcast list -->
     <div class="col-12 col-lg-8">
       {{ range .Pages.ByDate.Reverse }}
