@@ -14,12 +14,13 @@
         </div>
       </div>
        <!-- Table of Contents -->
-      <div class="table-of-contents">
-        <h3>Table of Contents</h3>
-        {{ .TableOfContents }}
-      </div>
+      
       {{ with .Params.description }}
       <div class="article-style">
+        <div class="table-of-contents">
+          <h3>Table of Contents</h3>
+          {{ .TableOfContents }}
+        </div>
         {{ . | markdownify }}
       </div>
       {{ end }}
