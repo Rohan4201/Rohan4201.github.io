@@ -18,4 +18,4 @@ date: 2024-05-22
 
 - Inference on asymptotic distribution of edge density via simulations  
 
-You can find the report for this project {{< staticref "uploads/Dynamic_Networks/Study_of_models_in_Dynamic_Networks.pdf" "newtab" >}}here{{< /staticref >}}.
+You can find the report for this project {{< staticref "uploads/Dynamic_Networks/Rohan_Shinde_MD2219_Endterm_report.pdf" "newtab" >}}here{{< /staticref >}}.
